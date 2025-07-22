@@ -7,9 +7,22 @@ public class SaleSystem {
 		// TODO Auto-generated method stub
 		
 		// by array method
-		SaleITem[] items = {
-				new SaleItem("");
+		SaleItem[] items = {
+				new SaleItem("Laptop",50000,10),
+				new SaleItem("Pen",10,6),
+				new SaleItem("Shirt",600,7)
+		};
+		System.out.println("--------------------------------------------------------------------------------------------");
+
+		double grandTotal = 0;
+		for(SaleItem item: items) {
+			item.display();
+			grandTotal += item.totalCostPerProduct();
 		}
+		
+		System.out.println("--------------------------------------------------------------------------------------------");
+		System.out.println("Grand Total: "+grandTotal);
+		
 		
 		// by using normal method 
 //		SaleItem s1 = new SaleItem(10);

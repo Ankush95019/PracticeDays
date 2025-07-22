@@ -5,17 +5,25 @@ class SaleItem {
 	private double price;
 	private int quantitySold;
 	
-	public SaleItem(int quantitySold) {
+	// using constructor
+	public SaleItem(String productName, double price, int quantitySold) {
+		this.productName = productName;
+		this.price = price;
 		this.quantitySold = quantitySold;
 	}
 	
-	public void setProductName(String productName) {
-		this.productName =  productName;
-	}
-	
-	public void setPrice(double price) {
-		this.price =  price;
-	}
+	// using getter and setter methods
+//	public SaleItem(int quantitySold) {
+//		this.quantitySold = quantitySold;
+//	}
+//	
+//	public void setProductName(String productName) {
+//		this.productName =  productName;
+//	}
+//	
+//	public void setPrice(double price) {
+//		this.price =  price;
+//	}
 	
 	public double totalCostPerProduct() {
 		return price*quantitySold;
