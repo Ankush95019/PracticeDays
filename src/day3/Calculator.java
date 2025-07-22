@@ -1,5 +1,6 @@
 package day3;
 
+// polymorphism using method overloading
 public class Calculator {
 	class Calculator1 {
 		public int add(int a,int b) {
