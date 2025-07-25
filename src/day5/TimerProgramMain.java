@@ -15,7 +15,7 @@ class TimerProgram{
 		for(int i = 0;i < tasks.length;i++) {
 			
 			System.out.println("Current time is "+timerTimings[i]);
-			System.out.println("Your task at "+tasks[i]);
+			System.out.println("Your task at "+tasks[i]+"\n");
 		}
 		System.out.println("Yeahh!! You have completed all tasks for today. Enjoy your time...");
 	}
