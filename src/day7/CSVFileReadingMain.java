@@ -12,7 +12,6 @@ public class CSVFileReadingMain {
 		// TODO Auto-generated method stub
 		File f1 = new File("C:\\Users\\Ankush\\Documents\\Example2.csv");
 		
-		
 		try {
 			BufferedReader br1 = new BufferedReader(new FileReader(f1));
 			String line = br1.readLine();
