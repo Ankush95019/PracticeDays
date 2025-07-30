@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.FileWriter; // for writing a file
 import java.util.Scanner; // to read a txt file
 
-public class FileHandling {
+public class FileHandling1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
