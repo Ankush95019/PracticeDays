@@ -1,5 +1,3 @@
-package FileHandling;
-
 import java.io.File; // import the File Class library
 import java.io.FileNotFoundException;
 import java.io.IOException;
