@@ -12,7 +12,7 @@ public class Collection_ComparableMain {
 		Comparator<Integer> c1 = new Comparator<Integer>() {
 
 			@Override
-			public int compare(int i, int j) {
+			public int compare(Integer i, Integer j) {
 				// TODO Auto-generated method stub
 				if(i%10 > j%10)
 					return 1;
