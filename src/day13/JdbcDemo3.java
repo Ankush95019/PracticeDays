@@ -1,4 +1,4 @@
-package com.demo.jdbc;
+package day13;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
