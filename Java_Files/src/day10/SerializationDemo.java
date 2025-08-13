@@ -1,4 +1,4 @@
-package day10;
+package src.day10;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

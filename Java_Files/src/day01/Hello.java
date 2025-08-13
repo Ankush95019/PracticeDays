@@ -1,4 +1,4 @@
-package day01;
+package src.day01;
 
 public class Hello {
 	public static void main(String[] args) {

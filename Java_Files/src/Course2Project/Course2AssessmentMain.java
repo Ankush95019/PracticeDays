@@ -1,4 +1,4 @@
-package Course2Project;
+package src.Course2Project;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package day12;
+package src.day12;
 
 import java.io.FileReader;
 import java.io.IOException;

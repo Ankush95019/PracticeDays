@@ -1,4 +1,4 @@
-package day02.Arrays;
+package src.day02.Arrays;
 
 public class SumOfElements {
 

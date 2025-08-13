@@ -1,4 +1,4 @@
-package day10;
+package src.day10;
 
 import java.io.File; // import the File Class library
 import java.io.FileNotFoundException;

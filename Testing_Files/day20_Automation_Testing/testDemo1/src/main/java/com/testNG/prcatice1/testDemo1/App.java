@@ -1,4 +1,4 @@
-package com.testNG.prcatice1.testDemo1;
+package day20_Automation_Testing.testDemo1.src.main.java.com.testNG.prcatice1.testDemo1;
 
 /**
  * Hello world!

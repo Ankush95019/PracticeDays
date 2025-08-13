@@ -1,4 +1,4 @@
-package day05;
+package src.day05;
 
 interface Property1{
 	double propertyExpenseCalculator(double rent,double waterBill,double electricityBill);

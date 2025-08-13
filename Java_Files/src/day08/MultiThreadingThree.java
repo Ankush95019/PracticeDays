@@ -1,4 +1,4 @@
-package day08;
+package src.day08;
 
 class Mul5 implements Runnable{
 	public void run() {

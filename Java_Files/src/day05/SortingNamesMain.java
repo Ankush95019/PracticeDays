@@ -1,4 +1,4 @@
-package day05;
+package src.day05;
 
 class SortingNamesFromArray{
 	String[] names = {"Rahul","Rohit","Ankush","Gagan Kumar","Harshit Rana","Vishal Rana"};

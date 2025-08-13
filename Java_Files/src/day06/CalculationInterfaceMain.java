@@ -1,4 +1,4 @@
-package day06;
+package src.day06;
 
 interface Calculator_Interface{
 	double operation(double a,double b);

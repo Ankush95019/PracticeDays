@@ -1,4 +1,4 @@
-package day05;
+package src.day05;
 
 abstract class Property{
 	abstract double propertyMonthlyExpenses(double elecCons,double waterCons,double rent);

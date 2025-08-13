@@ -1,4 +1,4 @@
-package day07;
+package src.day07;
 
 public class ExceptionHandlingMain {
 

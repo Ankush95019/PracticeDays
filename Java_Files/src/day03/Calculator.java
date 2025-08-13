@@ -1,4 +1,4 @@
-package day03;
+package src.day03;
 
 // polymorphism using method overloading
 public class Calculator {

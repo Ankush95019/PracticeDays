@@ -1,4 +1,4 @@
-package day05;
+package src.day05;
 
 class TimerProgram{
 	String[] tasks = {

@@ -1,4 +1,4 @@
-package Course1Project;
+package src.Course1Project;
 import java.util.Scanner;
 
 public class ATM_project {

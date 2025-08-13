@@ -1,4 +1,4 @@
-package day11;
+package src.day11;
 
 import java.util.LinkedList;
 import java.util.List;

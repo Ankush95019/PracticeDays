@@ -1,4 +1,4 @@
-package day06;
+package src.day06;
 
 class FinalKeyword{
 	final void show() {

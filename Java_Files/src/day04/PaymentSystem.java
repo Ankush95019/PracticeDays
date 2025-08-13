@@ -1,4 +1,4 @@
-package day04;
+package src.day04;
 
 interface EcommercePayment{
 //	double amount;

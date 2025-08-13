@@ -1,4 +1,4 @@
-package day08;
+package src.day08;
 
 class TicketBooking{
 	private int availableTickets = 10;

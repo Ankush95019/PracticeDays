@@ -1,4 +1,4 @@
-package day08;
+package src.day08;
 
 class Mul3 implements Runnable{
 	public void run() {

@@ -1,4 +1,4 @@
-package day03.activities.sales.system;
+package src.day03.activities.sales.system;
 
 class SaleItem {
 	private String productName;

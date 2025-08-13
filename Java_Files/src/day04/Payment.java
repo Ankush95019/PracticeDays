@@ -1,4 +1,4 @@
-package day04;
+package src.day04;
 
 abstract class Payments {
 

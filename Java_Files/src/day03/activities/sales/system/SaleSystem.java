@@ -1,5 +1,4 @@
-package day03.activities.sales.system;
-import day03.activities.sales.system.SaleItem;
+package src.day03.activities.sales.system;
 
 public class SaleSystem {
 

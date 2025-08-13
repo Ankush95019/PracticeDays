@@ -1,4 +1,4 @@
-package day04;
+package src.day04;
 
 interface BillGenerator{
 	void generate(double amount);

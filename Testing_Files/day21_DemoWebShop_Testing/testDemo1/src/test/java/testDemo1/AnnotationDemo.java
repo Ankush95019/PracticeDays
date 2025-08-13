@@ -1,4 +1,4 @@
-package testDemo1;
+package test.java.testDemo1;
 
 import java.time.Duration;
 
@@ -36,7 +36,7 @@ public class AnnotationDemo {
 	public void beforeClass() {
 		System.out.println("Launching the browser");
 		
-		driver = new ChromeDriver();
+//		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 	}
@@ -57,7 +57,7 @@ public class AnnotationDemo {
 	public void loginTest() {
 		System.out.println("Performing login");
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='username']"))).sendKeys("Admin123");
+//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='username']"))).sendKeys("Admin123");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");;
 		driver.findElement(By.xpath("//button[text()=' Login ']"));
 		String expectedTitle = "OrangeHRM";
