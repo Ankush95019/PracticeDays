@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-14T18:18:26 IST" name="Suite" finished-at="2025-08-14T18:18:26 IST" duration-ms="92">
+    <groups>
+      <group name="regression">
+        <method signature="GroupsTesting.test3()[pri:0, instance:testingGroups.GroupsTesting@55182842]" name="test3" class="testingGroups.GroupsTesting"/>
+        <method signature="GroupsTesting.test4()[pri:0, instance:testingGroups.GroupsTesting@55182842]" name="test4" class="testingGroups.GroupsTesting"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupsTesting.test1()[pri:0, instance:testingGroups.GroupsTesting@55182842]" name="test1" class="testingGroups.GroupsTesting"/>
+        <method signature="GroupsTesting.test4()[pri:0, instance:testingGroups.GroupsTesting@55182842]" name="test4" class="testingGroups.GroupsTesting"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-08-14T18:18:26 IST" name="Test" finished-at="2025-08-14T18:18:26 IST" duration-ms="92">
+      <class name="testingGroups.GroupsTesting">
+        <test-method signature="test1()[pri:0, instance:testingGroups.GroupsTesting@55182842]" started-at="2025-08-14T18:18:26 IST" name="test1" finished-at="2025-08-14T18:18:26 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:0, instance:testingGroups.GroupsTesting@55182842]" started-at="2025-08-14T18:18:26 IST" name="test3" finished-at="2025-08-14T18:18:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:testingGroups.GroupsTesting@55182842]" started-at="2025-08-14T18:18:26 IST" name="test4" finished-at="2025-08-14T18:18:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- testingGroups.GroupsTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
