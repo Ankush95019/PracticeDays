@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-18T16:38:56 IST" name="suite1" finished-at="2025-08-18T16:39:26 IST" duration-ms="30181">
+    <groups>
+    </groups>
+    <test started-at="2025-08-18T16:38:56 IST" name="test1" finished-at="2025-08-18T16:39:26 IST" duration-ms="30181">
+      <class name="excel_Integration.Excel_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:38:57 IST" name="launchBrowser" finished-at="2025-08-18T16:39:03 IST" duration-ms="6079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:39:03 IST" name="loginTest" data-provider="credentials" finished-at="2025-08-18T16:39:06 IST" duration-ms="2641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[marvel01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IronMan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:39:06 IST" name="tearDown" finished-at="2025-08-18T16:39:08 IST" duration-ms="2460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:39:08 IST" name="launchBrowser" finished-at="2025-08-18T16:39:12 IST" duration-ms="4243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:39:12 IST" name="loginTest" data-provider="credentials" finished-at="2025-08-18T16:39:15 IST" duration-ms="2436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:39:15 IST" name="tearDown" finished-at="2025-08-18T16:39:17 IST" duration-ms="2390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:39:17 IST" name="launchBrowser" finished-at="2025-08-18T16:39:22 IST" duration-ms="4419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:39:22 IST" name="loginTest" data-provider="credentials" finished-at="2025-08-18T16:39:24 IST" duration-ms="1971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:excel_Integration.Excel_Test@33d512c1]" started-at="2025-08-18T16:39:24 IST" name="tearDown" finished-at="2025-08-18T16:39:26 IST" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- excel_Integration.Excel_Test -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
